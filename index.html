@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vellum — Fine Jewellery &amp; Accessories Boutique</title>
+  <meta name="description" content="Vellum is a fine jewellery boutique of recycled-gold rings, necklaces, earrings and bracelets — cast, set and finished by hand in our Marais atelier.">
+  <meta name="theme-color" content="#143A2E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================ HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Vellum — fine jewellery, home">
+        <span class="mark">VELLUM</span>
+        <span class="sub">Fine Jewellery</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#collection">The Edit</a></li>
+          <li><a href="#bestsellers">Bestsellers</a></li>
+          <li><a href="#craft">The Atelier</a></li>
+          <li><a href="#materials">Materials</a></li>
+          <li><a href="#gifts">Gifts</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" type="button" aria-label="Search jewellery">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+        </button>
+        <button class="icon-btn" type="button" aria-label="Account">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21c0-3.9 3.1-7 7-7s7 3.1 7 7"/></svg>
+        </button>
+        <button class="icon-btn" type="button" id="bagBtn" aria-label="Shopping bag, 0 items">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="bag-count" id="bagCount" aria-hidden="true">0</span>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================ MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="mobile-nav-top">
+      <span class="mark">VELLUM</span>
+      <button class="icon-btn" type="button" id="navClose" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+      </button>
+    </div>
+    <ul>
+      <li><a href="#collection"><span class="n">01</span> The Edit</a></li>
+      <li><a href="#bestsellers"><span class="n">02</span> Bestsellers</a></li>
+      <li><a href="#craft"><span class="n">03</span> The Atelier</a></li>
+      <li><a href="#materials"><span class="n">04</span> Materials</a></li>
+      <li><a href="#gifts"><span class="n">05</span> Gift Guide</a></li>
+    </ul>
+    <div class="mobile-nav-foot">
+      <span>Est. Paris 2014</span>
+      <span>Book an appointment</span>
+    </div>
+  </div>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ============================================ HERO -->
+    <section class="hero" aria-labelledby="hero-h">
+      <div class="hero-bg">
+        <img src="img/hero.jpg" alt="A fine chain necklace displayed on a stand behind the Vellum boutique vitrine, lit low and warm.">
+      </div>
+      <div class="hero-inner wrap">
+        <div class="hero-copy reveal in">
+          <span class="eyebrow">Autumn Edition — La Nuit d'Or</span>
+          <h1 id="hero-h">Jewellery made<br>to be <em>kept.</em></h1>
+          <p>Recycled-gold rings, necklaces and heirloom pieces — cast, set and finished by hand in our Marais atelier. Quietly modern, made to outlast the season.</p>
+          <div class="hero-cta">
+            <a class="btn-v gold" href="#collection">
+              Shop the edit
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="4" y1="12" x2="19" y2="12"/><polyline points="13 6 20 12 13 18"/></svg>
+            </a>
+            <a class="btn-v on-dark" href="#craft">Meet the makers</a>
+          </div>
+        </div>
+        <div class="hero-aside reveal in d2" aria-hidden="false">
+          <div>
+            <div class="k">18k</div>
+            <div class="v">100% recycled &amp; hallmarked gold</div>
+          </div>
+        </div>
+      </div>
+      <span class="hero-scroll" aria-hidden="true"><span class="line"></span>Scroll</span>
+    </section>
+
+    <!-- ============================================ TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track" id="ticker">
+        <span>Complimentary hand engraving</span>
+        <span>Free insured shipping over $200</span>
+        <span>100% recycled 18k gold</span>
+        <span>Lifetime cleaning &amp; care</span>
+        <span>Traceable, conflict-free stones</span>
+        <span>Complimentary hand engraving</span>
+        <span>Free insured shipping over $200</span>
+        <span>100% recycled 18k gold</span>
+        <span>Lifetime cleaning &amp; care</span>
+        <span>Traceable, conflict-free stones</span>
+      </div>
+    </div>
+
+    <!-- ============================================ COLLECTION -->
+    <section class="section collection wrap" id="collection" aria-labelledby="collection-h">
+      <div class="collection-top">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="index-no">01</span>&nbsp; The Edit</span>
+          <h2 id="collection-h">Featured <em>collection</em></h2>
+          <p>Six new pieces for autumn, built around the gold ring, the pendant and the everyday band. Each is made to order in solid recycled gold.</p>
+        </div>
+        <a class="link-more reveal d1" href="#bestsellers">
+          View all jewellery
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="4" y1="12" x2="19" y2="12"/><polyline points="13 6 20 12 13 18"/></svg>
+        </a>
+      </div>
+
+      <div class="product-grid">
+        <!-- Feature lead card -->
+        <article class="pcard feature reveal">
+          <div class="frame">
+            <span class="tag emerald">New arrival</span>
+            <img src="img/edit.jpg" alt="The Aurelia Edit — dozens of Vellum rings, cuffs and pendants laid out together.">
+            <button class="add" type="button" data-name="The Aurelia Edit" aria-label="Add The Aurelia Edit to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta">
+            <span class="cat">The Aurelia Edit · 24 pieces</span>
+            <h3>Layer it, stack it, keep it forever</h3>
+            <div class="row">
+              <span class="price">From $95</span>
+              <span class="karat">Recycled 18k</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 1 -->
+        <article class="pcard reveal d1">
+          <div class="frame">
+            <span class="tag">Bestseller</span>
+            <img src="img/ring1.jpg" alt="Solène ring — a gold band set with a sapphire flanked by marquise diamonds.">
+            <button class="add" type="button" data-name="Solène Ring" aria-label="Add Solène Ring to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta">
+            <span class="cat">Rings</span>
+            <h3>Solène Ring</h3>
+            <div class="row"><span class="price">$420</span><span class="karat">18k gold</span></div>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="pcard reveal d2">
+          <div class="frame">
+            <img src="img/necklace1.jpg" alt="Lune necklace — a fine gold chain hung with engraved medallions.">
+            <button class="add" type="button" data-name="Lune Chain Necklace" aria-label="Add Lune Chain Necklace to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta">
+            <span class="cat">Necklaces</span>
+            <h3>Lune Chain</h3>
+            <div class="row"><span class="price">$265</span><span class="karat">18k gold</span></div>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="pcard reveal d1">
+          <div class="frame">
+            <img src="img/earring1.jpg" alt="Étoile drop earrings in gold, set with rubies and seed pearls.">
+            <button class="add" type="button" data-name="Étoile Drop Earrings" aria-label="Add Étoile Drop Earrings to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta">
+            <span class="cat">Earrings</span>
+            <h3>Étoile Drops</h3>
+            <div class="row"><span class="price">$340</span><span class="karat">Ruby &amp; pearl</span></div>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="pcard reveal d2">
+          <div class="frame">
+            <span class="tag">Solid gold</span>
+            <img src="img/bracelet1.jpg" alt="Fila cuff — an ornate, deeply engraved solid-gold band.">
+            <button class="add" type="button" data-name="Fila Gold Cuff" aria-label="Add Fila Gold Cuff to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta">
+            <span class="cat">Bracelets</span>
+            <h3>Fila Cuff</h3>
+            <div class="row"><span class="price">$580</span><span class="karat">Solid gold</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================ CRAFT / STORY -->
+    <section class="section craft" id="craft" aria-labelledby="craft-h">
+      <div class="craft-grid wrap">
+        <div class="craft-media reveal">
+          <div class="stamp"><span><b>40</b><small>Steps by hand</small></span></div>
+          <div class="m1"><img src="img/atelier.jpg" alt="A goldsmith polishing a gold ring against the bench lathe."></div>
+          <div class="m2"><img src="img/story2.jpg" alt="A finished pendant from the collection resting on a stand."></div>
+        </div>
+        <div class="craft-copy reveal d1">
+          <span class="eyebrow on-dark"><span class="index-no" style="color:var(--gold-lite)">02</span>&nbsp; The Atelier</span>
+          <h2 id="craft-h">One jeweller,<br>one <em>piece</em>, start to finish.</h2>
+          <p>Nothing here is mass-cast overseas. Every Vellum piece is lost-wax cast, hand-set and finished at a single bench in the Marais — forty small decisions between raw gold and the ring in your hand. We keep our runs small on purpose, so the person who made your piece could tell you its story.</p>
+          <div class="craft-sign">
+            <div class="name">Camille Aurel</div>
+            <div class="role">Founder &amp; Master Goldsmith</div>
+          </div>
+          <div class="craft-stats">
+            <div><div class="k">2014</div><div class="v">Founded in Paris</div></div>
+            <div><div class="k">6,400+</div><div class="v">Pieces made to order</div></div>
+            <div><div class="k">100%</div><div class="v">Recycled precious metal</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ MATERIALS / ETHICS -->
+    <section class="section ethics wrap" id="materials" aria-labelledby="ethics-h">
+      <div class="ethics-grid">
+        <div class="ethics-media reveal">
+          <img src="img/ethics.jpg" alt="A gold ornament set with rows of red, green and colourless gemstones.">
+          <div class="band">Beautiful, and honest about where it comes from.</div>
+        </div>
+        <div class="reveal d1">
+          <span class="eyebrow"><span class="index-no">03</span>&nbsp; Materials &amp; Ethics</span>
+          <h2 id="ethics-h" style="font-size:clamp(2.1rem,4.3vw,3.4rem)">Only gold and stones<br>we can <em>trace</em>.</h2>
+          <p style="margin-top:1.1rem;max-width:52ch">We refuse newly-mined gold and untraceable stones — full stop. Here is exactly what goes into every Vellum piece, and the paperwork that backs it up.</p>
+
+          <div class="pillars">
+            <div class="pillar">
+              <span class="ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 6h7l2 3"/><path d="M17 12l-2 4H9"/><path d="M4.5 12L7 8"/><polyline points="7 4 7 8 3.5 8"/><polyline points="15 20 12 20 10.5 16"/><polyline points="20 14 18 17 20.5 18"/></svg>
+              </span>
+              <div>
+                <h3>Recycled 18k gold</h3>
+                <p>Refined entirely from reclaimed metal by SCS-certified partners. No new mining, ever.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <span class="ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><polygon points="6 3 18 3 22 9 12 22 2 9"/><line x1="6" y1="3" x2="9.5" y2="9"/><line x1="18" y1="3" x2="14.5" y2="9"/><line x1="2" y1="9" x2="22" y2="9"/><line x1="9.5" y1="9" x2="12" y2="22"/><line x1="14.5" y1="9" x2="12" y2="22"/></svg>
+              </span>
+              <div>
+                <h3>Traceable stones</h3>
+                <p>Diamonds and gems sourced mine-to-market with named origin and certification.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <span class="ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l7 3v5c0 4.3-3 7.6-7 9-4-1.4-7-4.7-7-9V6l7-3Z"/><polyline points="9 12 11.5 14.5 16 9.5"/></svg>
+              </span>
+              <div>
+                <h3>Hallmarked &amp; assayed</h3>
+                <p>Every gold piece is independently assayed and struck at the assay office.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <span class="ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l1.9 4.9L19 9l-3.6 3.4L16.3 18 12 15.3 7.7 18l.9-5.6L5 9l5.1-1.1L12 3Z"/></svg>
+              </span>
+              <div>
+                <h3>Lifetime care</h3>
+                <p>Free cleaning, re-polishing and re-plating for as long as you own the piece.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ BESTSELLERS -->
+    <section class="section best wrap" id="bestsellers" aria-labelledby="best-h">
+      <div class="best-top">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="index-no">04</span>&nbsp; Loved Most</span>
+          <h2 id="best-h">The <em>bestsellers</em></h2>
+          <p>The pieces our clients come back for — proposal rings, everyday pearls, and the cuff that never leaves the wrist.</p>
+        </div>
+        <div class="best-nav reveal d1">
+          <button type="button" id="bestPrev" aria-label="Previous bestsellers">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><polyline points="15 6 9 12 15 18"/></svg>
+          </button>
+          <button type="button" id="bestNext" aria-label="Next bestsellers">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="best-scroller" id="bestScroller">
+        <article class="pcard">
+          <div class="frame">
+            <span class="tag emerald">Signature</span>
+            <img src="img/best1.jpg" alt="Margaux ring — an emerald-cut diamond within a sapphire halo, on a gold band.">
+            <button class="add" type="button" data-name="Margaux Halo" aria-label="Add Margaux Halo to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Rings</span><h3>Margaux Halo</h3><div class="row"><span class="price">$1,180</span><span class="karat">Diamond &amp; sapphire</span></div></div>
+        </article>
+
+        <article class="pcard">
+          <div class="frame">
+            <img src="img/best2.jpg" alt="Colette pendant — a faceted smoky-quartz drop on a beaded gold chain.">
+            <button class="add" type="button" data-name="Colette Pendant" aria-label="Add Colette Pendant to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Necklaces</span><h3>Colette Pendant</h3><div class="row"><span class="price">$295</span><span class="karat">Smoky quartz</span></div></div>
+        </article>
+
+        <article class="pcard">
+          <div class="frame">
+            <img src="img/best3.jpg" alt="Odette strand of baroque freshwater pearls with moonstone beads.">
+            <button class="add" type="button" data-name="Odette Pearls" aria-label="Add Odette Pearls to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Necklaces</span><h3>Odette Pearls</h3><div class="row"><span class="price">$150</span><span class="karat">Freshwater pearl</span></div></div>
+        </article>
+
+        <article class="pcard">
+          <div class="frame">
+            <span class="tag">Just restocked</span>
+            <img src="img/best4.jpg" alt="Juno cuff bracelet in brushed metal.">
+            <button class="add" type="button" data-name="Juno Cuff" aria-label="Add Juno Cuff to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Bracelets</span><h3>Juno Cuff</h3><div class="row"><span class="price">$210</span><span class="karat">Brushed finish</span></div></div>
+        </article>
+
+        <article class="pcard">
+          <div class="frame">
+            <img src="img/gift2.jpg" alt="Vesper cocktail rings set with blue topaz and sapphire baguettes in gold.">
+            <button class="add" type="button" data-name="Vesper Cocktail Ring" aria-label="Add Vesper Cocktail Ring to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Rings</span><h3>Vesper Cocktail</h3><div class="row"><span class="price">$290</span><span class="karat">Blue topaz</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================ PRESS -->
+    <section class="section press wrap" id="press" aria-labelledby="press-h">
+      <div class="press-inner">
+        <h2 id="press-h" class="sr-only">Press &amp; recognition</h2>
+        <div class="press-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 7c-3.3 0-5 2.4-5 5.4C5 15.4 6.8 17 9 17c1.9 0 3.2-1.2 3.2-3 0-1.7-1.1-2.9-2.7-2.9-.3 0-.7.1-.8.1.2-1.3 1.6-2.7 3.3-3L10 7Zm8 0c-3.3 0-5 2.4-5 5.4 0 3 1.8 4.6 4 4.6 1.9 0 3.2-1.2 3.2-3 0-1.7-1.1-2.9-2.7-2.9-.3 0-.7.1-.8.1.2-1.3 1.6-2.7 3.3-3L18 7Z"/></svg>
+        </div>
+
+        <div class="press-quotes" id="pressQuotes">
+          <figure class="press-quote active">
+            <blockquote>Vellum has quietly become the atelier that other <em>jewellers</em> watch.</blockquote>
+            <figcaption class="who"><span class="pub">The Atelier Journal</span><span class="by">Fine Craft Report</span></figcaption>
+          </figure>
+          <figure class="press-quote">
+            <blockquote>Heirloom weight, modern restraint — the <em>Solène ring</em> is the ring of the year.</blockquote>
+            <figcaption class="who"><span class="pub">Mode &amp; Métier</span><span class="by">Jewellery Editor</span></figcaption>
+          </figure>
+          <figure class="press-quote">
+            <blockquote>Proof that responsible gold need not mean a compromise on <em>beauty</em>.</blockquote>
+            <figcaption class="who"><span class="pub">Fjord Living</span><span class="by">Design Desk</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="press-dots" id="pressDots" role="tablist" aria-label="Press quotes">
+          <button type="button" role="tab" aria-selected="true" aria-label="Quote 1"></button>
+          <button type="button" role="tab" aria-selected="false" aria-label="Quote 2"></button>
+          <button type="button" role="tab" aria-selected="false" aria-label="Quote 3"></button>
+        </div>
+
+        <div class="press-logos" aria-hidden="true">
+          <span>The Atelier <em>Journal</em></span>
+          <span>Mode &amp; Métier</span>
+          <span>Fjord Living</span>
+          <span><em>Coquette</em></span>
+          <span>Maison Review</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ GIFT GUIDE -->
+    <section class="section gifts wrap" id="gifts" aria-labelledby="gifts-h">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="index-no">05</span>&nbsp; The Gift Guide</span>
+        <h2 id="gifts-h">Find the <em>right</em> one</h2>
+        <p>Shop by moment and budget. Every order arrives in a signed keepsake box with complimentary engraving.</p>
+      </div>
+
+      <div class="gift-tabs reveal d1" role="tablist" aria-label="Gift budget">
+        <button class="gift-tab" role="tab" aria-selected="true" data-tier="all">All gifts<span class="sub">Everything</span></button>
+        <button class="gift-tab" role="tab" aria-selected="false" data-tier="everyday">Everyday<span class="sub">Under $150</span></button>
+        <button class="gift-tab" role="tab" aria-selected="false" data-tier="occasion">Occasion<span class="sub">Under $300</span></button>
+        <button class="gift-tab" role="tab" aria-selected="false" data-tier="heirloom">Heirloom<span class="sub">Statement</span></button>
+      </div>
+
+      <div class="gift-grid" id="giftGrid">
+        <article class="pcard gift-card" data-tier="everyday">
+          <div class="frame">
+            <span class="tag">Under $100</span>
+            <img src="img/gift1.jpg" alt="Wren stacking bangles in gold vermeil with a studded finish.">
+            <button class="add" type="button" data-name="Wren Bangles" aria-label="Add Wren Bangles to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Everyday</span><h3>Wren Bangles</h3><div class="row"><span class="price">$95</span><span class="karat">Gold vermeil</span></div></div>
+        </article>
+
+        <article class="pcard gift-card" data-tier="everyday">
+          <div class="frame">
+            <img src="img/best3.jpg" alt="Odette baroque-pearl strand presented as a gift.">
+            <button class="add" type="button" data-name="Odette Pearls" aria-label="Add Odette Pearls to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Everyday</span><h3>Odette Pearls</h3><div class="row"><span class="price">$150</span><span class="karat">Freshwater pearl</span></div></div>
+        </article>
+
+        <article class="pcard gift-card" data-tier="occasion">
+          <div class="frame">
+            <img src="img/necklace1.jpg" alt="Lune gold chain necklace as an occasion gift.">
+            <button class="add" type="button" data-name="Lune Chain Necklace" aria-label="Add Lune Chain Necklace to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Occasion</span><h3>Lune Chain</h3><div class="row"><span class="price">$265</span><span class="karat">18k gold</span></div></div>
+        </article>
+
+        <article class="pcard gift-card" data-tier="occasion">
+          <div class="frame">
+            <span class="tag">Anniversary</span>
+            <img src="img/gift2.jpg" alt="Vesper blue-topaz cocktail rings as an occasion gift.">
+            <button class="add" type="button" data-name="Vesper Cocktail Ring" aria-label="Add Vesper Cocktail Ring to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Occasion</span><h3>Vesper Cocktail</h3><div class="row"><span class="price">$290</span><span class="karat">Blue topaz</span></div></div>
+        </article>
+
+        <article class="pcard gift-card" data-tier="heirloom">
+          <div class="frame">
+            <span class="tag emerald">Milestone</span>
+            <img src="img/best1.jpg" alt="Margaux sapphire-halo ring as a milestone gift.">
+            <button class="add" type="button" data-name="Margaux Halo" aria-label="Add Margaux Halo to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Heirloom</span><h3>Margaux Halo</h3><div class="row"><span class="price">$1,180</span><span class="karat">Diamond &amp; sapphire</span></div></div>
+        </article>
+
+        <article class="pcard gift-card" data-tier="heirloom">
+          <div class="frame">
+            <img src="img/bracelet1.jpg" alt="Fila solid-gold cuff as an heirloom gift.">
+            <button class="add" type="button" data-name="Fila Gold Cuff" aria-label="Add Fila Gold Cuff to bag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to bag
+            </button>
+          </div>
+          <div class="meta"><span class="cat">Heirloom</span><h3>Fila Gold Cuff</h3><div class="row"><span class="price">$580</span><span class="karat">Solid gold</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================ NEWSLETTER -->
+    <section class="section news wrap" id="newsletter" aria-labelledby="news-h">
+      <div class="news-card reveal">
+        <div class="news-copy">
+          <span class="eyebrow on-dark">Join the atelier list</span>
+          <h2 id="news-h">First look, <em>private</em> trunk shows</h2>
+          <p>New editions before they sell out, invitations to our seasonal atelier evenings, and 10% off your first piece.</p>
+        </div>
+        <form class="news-form" id="newsForm" novalidate>
+          <label class="sr-only" for="newsEmail">Email address</label>
+          <div class="news-field">
+            <input type="email" id="newsEmail" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <button class="btn-v gold" type="submit">Subscribe</button>
+          </div>
+          <p class="news-status" id="newsStatus" role="status" aria-live="polite"></p>
+          <p class="news-note">No spam, only jewellery. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================ FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-top wrap">
+      <div class="footer-brand">
+        <div class="mark">VELLUM</div>
+        <div class="sub">Fine Jewellery · Paris</div>
+        <p>Recycled-gold jewellery, made by hand and made to be kept. Designed in the Marais, worn everywhere.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Vellum on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="Vellum on Pinterest">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 20c-.4-1.4-.2-3 .3-4.6l1.3-5.1"/><path d="M8.5 9.5C8.5 7 10.4 5 13 5c2.5 0 4.3 1.6 4.3 4 0 2.8-1.6 4.8-3.7 4.8-1.1 0-1.9-.9-1.6-2"/><circle cx="12" cy="12" r="9"/></svg>
+          </a>
+          <a href="#" aria-label="Vellum on X">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3l-6.6 7.6L21.8 21h-6l-4.7-6.2L5.6 21H2.5l7.1-8.1L2.5 3h6.1l4.3 5.7L17.5 3Zm-1 16h1.7L8 4.8H6.2L16.5 19Z"/></svg>
+          </a>
+          <a href="#" aria-label="Vellum on Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 8h2V5h-2c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h2.2l.8-3H14V8Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#collection">Rings</a></li>
+          <li><a href="#collection">Necklaces</a></li>
+          <li><a href="#collection">Earrings</a></li>
+          <li><a href="#collection">Bracelets</a></li>
+          <li><a href="#gifts">Gift cards</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>The Atelier</h4>
+        <ul>
+          <li><a href="#craft">Our story</a></li>
+          <li><a href="#craft">Craftsmanship</a></li>
+          <li><a href="#materials">Materials &amp; ethics</a></li>
+          <li><a href="#press">Press</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Client Care</h4>
+        <ul>
+          <li><a href="#">Shipping &amp; returns</a></li>
+          <li><a href="#">Ring sizing guide</a></li>
+          <li><a href="#">Repairs &amp; re-plating</a></li>
+          <li><a href="#">Book an appointment</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bar wrap">
+      <span>© 2026 Vellum Fine Jewellery. All rights reserved.</span>
+      <div class="legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
+        <span class="uic">Free template by uiCookies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
